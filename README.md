@@ -65,6 +65,8 @@ To train a single-task pre-trained model as the foundation for model fusion, you
 
 Please refer to the details in `multi_task_datasetname.ipynb` for training both the Baseline model and the model of our proposed method.
 
+In our proposed approach, the multi-task model architecture is created by decomposing four single-task pre-models and then hierarchically fusing them together. This process aligns precisely with the experiments described in the paper. However, the specific steps of decomposition and fusion are not detailed here.
+
 ## Acknowledgement
 Some dataloading and evaluation code is from:
 https://github.com/datawhalechina/torch-rechub
