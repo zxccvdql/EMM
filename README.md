@@ -9,7 +9,7 @@ As a general framework, this method allows modelers to simply prepare trained mo
 Through the proposed method, we achieve efficient and automated construction of multi-task models, and its effectiveness is verified through extensive experiments on three datasets.
 
 <div align="center">
-  <img src="Figs/fig1.png" width="100%">
+  <img src="Figs/fig1.pdf" width="100%">
   Overview of our method.
 </div>
 
