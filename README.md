@@ -38,14 +38,14 @@ The dataset covers information from 250,000 users and 500,000 products, totaling
   - The original data has already been divided into a training set and a test set. During preprocessing, half of the original test set is randomly allocated as a validation set. The ratio of the preprocessed training set, validation set, and test set is 2:1:1.
   - The sparse features of the preprocessed dataset have undergone Label Encoding, while the dense features have been normalized. We also provide a script named `data\ali-ccp\preprocess_ali_ccp.py` for processing the original data.
 - Original data address: [This Link](https://tianchi.aliyun.com/dataset/dataDetail?dataId=408).
-- Download address for the preprocessed full dataset: [This Link](https://cowtransfer.com/s/1903cab699fa49).
+- Download address for the preprocessed full dataset: [This Link](https://aistudio.baidu.com/datasetdetail/281072).
 
 #### AliExpress
 
 AliExpress data contains 16 sparse features and 63 dense features, labeled with "exposure", "click", and "conversion". The dense features in the original data have already undergone normalization preprocessing. The original data consists of 5 CSV files, but only the data from the US region is used for testing here.
 
 - Original data address: [This Link](https://tianchi.aliyun.com/dataset/dataDetail?dataId=74690&lang=en-us).
-- Download address for the preprocessed full dataset: [This Link](https://cowtransfer.com/s/7080e52e5f4f4a).
+- Download address for the preprocessed full dataset: [This Link](https://aistudio.baidu.com/datasetdetail/321095).
 
 #### Census-Income
 
@@ -56,7 +56,7 @@ This dataset consists of US census income data, which is used to predict income 
   - To consistently test all multitask models, we follow the ESMM setup, where income prediction is considered a CTR (Click-Through Rate) task, and marital status prediction is treated as a CVR (Conversion Rate) task.
   - For reference on how to process the original data, please see `data\census-income\preprocess_census.py`.
 - Original data address: [This Link](http://archive.ics.uci.edu/ml/datasets/Census-Income+(KDD)).
-- Download address for the preprocessed full dataset: [This Link](https://cowtransfer.com/s/e8b67418ce044c).
+- Download address for the preprocessed full dataset: [This Link](https://aistudio.baidu.com/datasetdetail/321097).
 
 ## Train Pre-trained Model
 
